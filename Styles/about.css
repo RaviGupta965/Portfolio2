@@ -1,6 +1,6 @@
 .about-header-div>h2 {
-    font-weight: var(--heading-weight);
-    font-size: var(--heading-size);
+    font-weight: var(--subheading-weight);
+    font-size: var(--subheading-size);
 }
 .underline{
     background-color: var(--main-color);

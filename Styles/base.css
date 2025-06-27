@@ -12,6 +12,8 @@
 }
 
 :root{
+  --subheading-weight:500;
+  --subheading-size:5rem;
   --bg-color: #1f242d;
   --second-bg-color: #323946;
   --about-project-color:#323b4b;
@@ -126,7 +128,10 @@ span{
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
 }
-
+.keyword-container{
+  display: flex;
+  flex-wrap: wrap;
+}
 .btn{
   display: inline-block;
   padding: 1rem 2.8rem;

@@ -1,0 +1,66 @@
+.projects {
+  padding: 10rem 9%;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-content {
+  background: linear-gradient(45deg, var(--second-bg-color), #4e6e70);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 1.75rem 1rem;
+  box-shadow: 0 0 1rem #0ef;
+}
+.project-heading {
+  color: #0ef;
+  font-size: 3rem;
+  font-weight: 1rem;
+}
+.project-desc {
+  font-size: 1.2rem;
+}
+.project-bottom {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tech-used {
+  display: flex;
+  flex-direction: row;
+}
+.tech-used div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid var(--main-color);
+  margin: 0.6rem;
+  padding: 0.8rem;
+  background-color: var(--skills-color);
+}
+.github-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #0ef;
+  margin: 0.6rem;
+  padding: 0.8rem;
+  background-color: var(--skills-color); /* Keep this if you want to control bg via CSS variable */
+  color: #0ef;
+  text-decoration: none;
+}
+
+.github-link i {
+  font-size: 2rem;
+  margin: 0 8px;
+  color: #0ef;
+}
+
+.github-link span {
+  color: #0ef;
+}
