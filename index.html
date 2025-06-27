@@ -10,13 +10,18 @@
       rel="stylesheet"
     />
   </head>
+  <script
+    src="https://kit.fontawesome.com/2d0949d040.js"
+    crossorigin="anonymous"
+  ></script>
   <body>
     <header class="header">
       <a href="#" class="logo">Portfolio.</a>
       <i class="bx bx-menu-wider" id="menu-icon"></i>
       <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
+        <a href="#home" class="active">Home
+        </a>
+        <a href="#about" >About</a>
         <a href="#skills">Skills</a>
         <a href="#project">Project</a>
         <a href="#experience">Experience</a>
@@ -225,7 +230,6 @@
       </div>
     </section>
 
-
     <!-- Projects Section -->
     <section class="projects" id="project">
       <div class="about-header-div">
@@ -235,13 +239,44 @@
         </h2>
       </div>
       <div class="project-container">
+        <div class="project-content">
+          <div class="project-heading">Code Buddy</div>
+          <div class="project-desc">
+            Code Buddy is a powerful Visual Studio Code extension that
+            integrates an AI assistant directly into the coding environment,
+            offering real-time, context-aware code help. It is built to
+            streamline developer workflows by allowing natural language
+            interaction with the codebase, helping with everything from
+            debugging and code generation to understanding unfamiliar code.
+          </div>
+          <div class="project-bottom">
+            <div class="tech-used">
+              <div>Next Js</div>
+              <div>Tailwind CSS</div>
+              <div>Appwrite</div>
+              <div>Node JS</div>
+              <div>Google Gemini API</div>
+            </div>
+            <a
+              href="https://github.com/RaviGupta965/Code_Buddy_Extension"
+              class="github-link"
+            >
+              <i class="bx bxl-github"></i>
+              <div>View on Github</div>
+            </a>
+          </div>
+        </div>
 
         <div class="project-content">
-          <div class="project-heading">
-             Code Buddy
-          </div>
+          <div class="project-heading">Storage.io – Cloud Storage Web App</div>
           <div class="project-desc">
-            Code Buddy is a powerful Visual Studio Code extension that integrates an AI assistant directly into the coding environment, offering real-time, context-aware code help. It is built to streamline developer workflows by allowing natural language interaction with the codebase, helping with everything from debugging and code generation to understanding unfamiliar code.
+            Storage.io is a secure cloud storage web application built with
+            Next.js and TypeScript, enabling users to upload, manage, and access
+            files from any device. The platform ensures secure access by
+            implementing OTP-based email authentication, eliminating the need
+            for traditional passwords.It allows users to upload, access, and
+            manage files seamlessly with a modern interface and smart backend
+            architecture.
           </div>
           <div class="project-bottom">
             <div class="tech-used">
@@ -250,42 +285,27 @@
               <div>Appwrite</div>
               <div>Node JS</div>
             </div>
-            <a href="https://github.com/RaviGupta965/Code_Buddy_Extension" class="github-link">
+            <a
+              href="https://github.com/RaviGupta965/Storage.io"
+              class="github-link"
+            >
               <i class="bx bxl-github"></i>
               <div>View on Github</div>
             </a>
           </div>
         </div>
 
-      
         <div class="project-content">
-          <div class="project-heading">
-             Storage.io – Cloud Storage Web App
-          </div>
+          <div class="project-heading">Promptopia</div>
           <div class="project-desc">
-            Storage.io is a secure cloud storage web application built with Next.js and TypeScript, enabling users to upload, manage, and access files from any device. The platform ensures secure access by implementing OTP-based email authentication, eliminating the need for traditional passwords.It allows users to upload, access, and manage files seamlessly with a modern interface and smart backend architecture.
-          </div>
-          <div class="project-bottom">
-            <div class="tech-used">
-              <div>Next Js</div>
-              <div>Tailwind CSS</div>
-              <div>Appwrite</div>
-              <div>Node JS</div>
-            </div>
-            <a href="https://github.com/RaviGupta965/Storage.io" class="github-link">
-              <i class="bx bxl-github"></i>
-              <div>View on Github</div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="project-content">
-          <div class="project-heading">
-             Promptopia
-          </div>
-          <div class="project-desc">
-            Promptopia is a full-stack web application that allows users to create, discover, and share AI prompts with a global community. Designed to foster collaboration and inspiration, Promptopia lets users explore creative prompt ideas for large language models like ChatGPT.It features Google OAuth authentication via NextAuth.js, allowing users to securely log in and manage their prompt collections. The platform encourages community-driven collaboration by making it easy to explore prompts by tags, keywords, or creators.
+            Promptopia is a full-stack web application that allows users to
+            create, discover, and share AI prompts with a global community.
+            Designed to foster collaboration and inspiration, Promptopia lets
+            users explore creative prompt ideas for large language models like
+            ChatGPT.It features Google OAuth authentication via NextAuth.js,
+            allowing users to securely log in and manage their prompt
+            collections. The platform encourages community-driven collaboration
+            by making it easy to explore prompts by tags, keywords, or creators.
           </div>
           <div class="project-bottom">
             <div class="tech-used">
@@ -295,7 +315,10 @@
               <div>Node JS</div>
               <div>OAuth</div>
             </div>
-            <a href="https://github.com/RaviGupta965/Promptopia" class="github-link">
+            <a
+              href="https://github.com/RaviGupta965/Promptopia"
+              class="github-link"
+            >
               <i class="bx bxl-github"></i>
               <div>View on Github</div>
             </a>
@@ -303,5 +326,119 @@
         </div>
       </div>
     </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+      <div class="about-header-div">
+        <h2>
+          Experience
+          <div class="underline"></div>
+        </h2>
+      </div>
+
+      <div class="experience-container">
+        <div class="experience-card">
+          <div class="exp-header">
+            <div class="heading">
+              <h3>Fullstack Developer Intern</h3>
+            </div>
+            <a href="#" class="proof">
+              <div>
+                <i class="fa-solid fa-file-signature"></i>
+              </div>
+              Joining Letter
+            </a>
+          </div>
+          <span class="company">To-Let Globe • May 2025 - Present</span>
+          <p>
+            Developed and maintained full-stack web applications using React.js,
+            Node.js, Express, and MongoDB.Implemented user authentication,
+            RESTful APIs, and responsive UI components to enhance user
+            experience.
+          </p>
+          <br />
+          <p>
+            Gained hands-on experience in Git, Agile development, and deployment
+            workflows.
+          </p>
+
+          <div class="tech-used">
+            <div>Next JS</div>
+            <div>React JS</div>
+            <div>Node JS</div>
+            <div>Nodemailer</div>
+            <div>Mongo DB</div>
+          </div>
+        </div>
+
+        <div class="experience-card">
+          <div class="exp-header">
+            <div class="heading">
+              <h3>Frontend Developer Intern</h3>
+            </div>
+            <a href="#" class="proof">
+              <div>
+                <i class="fa-solid fa-award"></i>
+              </div>
+              Certificate
+            </a>
+          </div>
+          <span class="company">IBM CSR Box • May 2024 - August 2024</span>
+          <p>
+            Contributed to Scalable Web Development: Worked as a Web Development
+            Intern at CSR Box, building responsive and SEO-friendly web pages
+            using HTML, CSS, JavaScript, React.js, Jquery improving site
+            performance by 30%.Strengthened skills in teamwork, leadership,
+            critical thinking, and social innovation.
+          </p>
+
+          <div class="tech-used">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>Javascript</div>
+            <div>React JS</div>
+            <div>Jquery</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+
+    <section id="contact" class="contact">
+      <div class="about-header-div">
+        <h2>
+          Contact Me
+          <div class="underline"></div>
+        </h2>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="info-box">
+            <i class="bx bxs-map"></i>
+            <span>New Delhi, India</span>
+          </div>
+          <div class="info-box">
+            <i class="bx bxs-envelope"></i>
+            <span>clicktoravi1234@gmail.com</span>
+          </div>
+
+          <div class="social-icons">
+            <a href="https://github.com/RaviGupta965"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/ravi-gupta-06384b248"><i class="bx bxl-linkedin"></i></a>
+            <a href="clicktoravi1234@gmail.com"><i class="bx bxs-envelope"></i></a>
+          </div>
+        </div>
+
+        <form action="#" class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="send-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>

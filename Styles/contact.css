@@ -1,0 +1,94 @@
+.contact {
+  padding: 10rem 9%;
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact-info {
+  flex: 1;
+  max-width: 400px;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  gap: 12px;
+  background: var(--second-bg-color);
+  padding: 2rem;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+
+.info-box i {
+  font-size: 3rem;
+  color: var(--main-color);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(0, 255, 213, 0.1);
+  color: var(--main-color);
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #00ffd5;
+  color: #0a1229;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: var(--second-bg-color);
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #aaa;
+}
+
+.send-btn {
+  background: linear-gradient(to right, #00ffd5, #00e0ff);
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0a1229;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  opacity: 0.85;
+}

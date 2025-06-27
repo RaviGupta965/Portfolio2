@@ -61,14 +61,34 @@ section{
   font-weight: 600;
   cursor: default;
 }
-.navbar a{
+.navbar a {
+  position: relative;
   font-size: 1.7rem;
   color: var(--text-color);
   margin-left: 4rem;
   transition: 0.3s;
+  padding-bottom: 5px;
 }
- 
-.navbar a:hover, .navbar a.active{
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: var(--main-color);
+  transition: width 0.4s ease-in-out;
+}
+/* On hover or active, expand the line */
+.navbar a:hover::after,
+.navbar a.active::after {
+  width: 100%;
+}
+
+/* Text color change */
+.navbar a:hover,
+.navbar a.active {
   color: var(--main-color);
 }
 #menu-icon{
@@ -86,9 +106,11 @@ section{
   border-radius: var(--border-radius);
   object-fit: cover;
   object-position: top;
-  width: 35vw;
-  box-shadow: 0 0 0.8rem var(--main-color);
+  width: 500px;
+  box-shadow: 0 0 .7rem var(--main-color);
+  animation: float 3s ease-in-out infinite;
 }
+
 .home-content{
   margin-left: 5rem;
 }
