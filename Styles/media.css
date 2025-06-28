@@ -2,7 +2,7 @@
   .home.about-section,
   .contact,
   .projects,
-  .skills {
+  .skills,.experience {
     padding: 3rem 3%;
   }
   .home-img img {
@@ -10,7 +10,7 @@
     width: 400px;
   }
   .experience-card {
-    padding: 0;
+    padding: 25px;
   }
   .about-left {
     height: 50vw;
@@ -28,9 +28,7 @@
   .project {
     padding: 1%;
   }
-  .project_cnt{
-
-  }
+  
 }
 
 @media (max-width: 1000px) {
@@ -38,7 +36,7 @@
   .about-section,
   .contact,
   .projects,
-  .skills {
+  .skills,.experience {
     padding: 3rem 1%;
   }
   .header {
@@ -97,11 +95,23 @@
   .contact-container {
     flex-direction: row;
   }
+  .project-bottom{
+    flex-direction: column;
+  }
 }
 
 @media (max-width:600px){
     .about-left{
         height: 30vh;
         width: 90vw;
+    }
+    .exp-header{
+        flex-direction: column;
+    }
+    .proof div{
+        display: inline-block;
+    }
+    .proof{
+        display: inline-block;
     }
 }
