@@ -115,4 +115,7 @@
   .proof {
     width: fit-content;
   }
+  .footer div{
+    font-size: 2vw;
+  }
 }
