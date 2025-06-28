@@ -2,7 +2,8 @@
   .home.about-section,
   .contact,
   .projects,
-  .skills,.experience {
+  .skills,
+  .experience {
     padding: 3rem 3%;
   }
   .home-img img {
@@ -28,7 +29,6 @@
   .project {
     padding: 1%;
   }
-  
 }
 
 @media (max-width: 1000px) {
@@ -36,7 +36,8 @@
   .about-section,
   .contact,
   .projects,
-  .skills,.experience {
+  .skills,
+  .experience {
     padding: 3rem 1%;
   }
   .header {
@@ -67,9 +68,9 @@
 }
 
 @media (max-width: 800px) {
-    .about-header-div>h2{
-        font-size: 3rem;
-    }
+  .about-header-div > h2 {
+    font-size: 3rem;
+  }
   .home {
     flex-direction: column;
     padding: 5rem 1rem;
@@ -89,29 +90,29 @@
 }
 
 @media (max-width: 720px) {
-    .about-left-container{
-        padding: 13px;
-    }
+  .about-left-container {
+    padding: 13px;
+  }
   .contact-container {
     flex-direction: row;
   }
-  .project-bottom{
+  .project-bottom {
     flex-direction: column;
   }
 }
 
-@media (max-width:600px){
-    .about-left{
-        height: 30vh;
-        width: 90vw;
-    }
-    .exp-header{
-        flex-direction: column;
-    }
-    .proof div{
-        display: inline-block;
-    }
-    .proof{
-        display: inline-block;
-    }
+@media (max-width: 600px) {
+  .about-left {
+    height: 30vh;
+    width: 90vw;
+  }
+  .exp-header {
+    flex-direction: column;
+  }
+  .proof div {
+    display: inline-block;
+  }
+  .proof {
+    width: fit-content;
+  }
 }
