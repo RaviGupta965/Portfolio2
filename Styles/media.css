@@ -47,6 +47,9 @@
   .navbar {
     display: none;
   }
+  .skills-row{
+    margin: 1rem 1vw;
+  }
   .home-content h3 {
     font-size: 2rem;
     font-weight: 300;
@@ -106,6 +109,12 @@
     height: 30vh;
     width: 90vw;
   }
+  .contact-form{
+    margin: 0 1vw;
+  }
+  .keyword-container{
+    margin: 0.4vw;
+  }
   .exp-header {
     flex-direction: column;
   }
@@ -118,4 +127,10 @@
   .footer div{
     font-size: 2vw;
   }
+  .key-word {
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: .75rem;
+    margin: .5rem 0.5rem;
+}
 }
