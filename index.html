@@ -3,27 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ravi Gupta | Full Stack Web Developer | Software Developer | GGSIPU</title>
+    <title>
+      Ravi Gupta | Full Stack Web Developer | Software Developer | GGSIPU
+    </title>
     <link rel="stylesheet" href="Styles/main.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <script
     src="https://kit.fontawesome.com/2d0949d040.js"
     crossorigin="anonymous"
   ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  
   <body>
     <header class="header">
       <a href="#" class="logo">Portfolio.</a>
       <i class="bx bx-menu-wider" id="menu-icon"></i>
       <nav class="navbar">
-        <a href="#home" class="active">Home
-        </a>
-        <a href="#about" >About</a>
+        <a href="#home" class="active">Home </a>
+        <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#project">Project</a>
         <a href="#experience">Experience</a>
@@ -33,7 +36,13 @@
 
     <!-- Home Section Design -->
     <section class="home" id="home">
-      <div class="home-img">
+      <div
+        class="home-img"
+        data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-duration="600"
+        data-aos-easing="ease-out"
+      >
         <img
           src="image/myimage.JPG"
           height="500px"
@@ -41,12 +50,38 @@
           alt="my-photo"
         />
       </div>
-      
+
       <div class="home-content">
-        <h3>Hey,I'm</h3>
-        <h1>Ravi Gupta</h1>
-        <h3>And I'm a <span>Software Developer</span></h3>
-        <p>
+        <h3
+          data-aos="fade-left"
+          data-aos-offset="100"
+          data-aos-duration="600"
+          data-aos-easing="ease-out"
+        >
+          Hey,I'm
+        </h3>
+        <h1
+          data-aos="zoom-in"
+          data-aos-offset="100"
+          data-aos-duration="600"
+          data-aos-easing="ease-out"
+        >
+          Ravi Gupta
+        </h1>
+        <h3
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-duration="600"
+          data-aos-easing="ease-out"
+        >
+          And I'm a <span>Software Developer</span>
+        </h3>
+        <p
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-duration="600"
+          data-aos-easing="ease-out"
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
           deserunt, dolores nulla sapiente ut error totam, quibusdam soluta est
           maiores accusamus. Distinctio iusto sapiente iste excepturi ex, non
@@ -54,13 +89,31 @@
           praesentium maxime.
         </p>
 
-        <div class="social-media">
-          <a href="https://github.com/RaviGupta965"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/ravi-gupta-06384b248"><i class="bx bxl-linkedin"></i></a>
+        <div
+          class="social-media"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-duration="600"
+          data-aos-easing="ease-out"
+        >
+          <a href="https://github.com/RaviGupta965"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/ravi-gupta-06384b248"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
           <a href="clicktoravi1234@gmail.com"><i class="bx bx-envelope"></i></a>
         </div>
 
-        <a href="#" class="btn">View Resume</a>
+        <a
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-duration="600"
+          data-aos-easing="ease-out"
+          href="#"
+          class="btn"
+          >View Resume</a
+        >
       </div>
     </section>
 
@@ -73,7 +126,13 @@
         </h2>
       </div>
       <div class="about-content">
-        <div class="about-left">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-duration="600"
+          data-aos-easing="ease-out"
+          class="about-left"
+        >
           <div class="about-left-container">
             <div class="project">
               <div class="project_cnt">30+</div>
@@ -94,7 +153,13 @@
           </div>
         </div>
 
-        <div class="about-right">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="100"
+          data-aos-duration="600"
+          data-aos-easing="ease-out"
+          class="about-right"
+        >
           <p>
             Hi, I'm Ravi Gupta, a passionate Full Stack Web developer with
             expertise in building user-centered applications. Currently pursuing
@@ -141,7 +206,10 @@
       </div>
 
       <div class="skills-row">
-        <div class="skills-column skills-column1">
+        <div data-aos="fade-up-right"
+          data-aos-offset="100"
+          data-aos-duration="600"
+          data-aos-easing="ease-out" class="skills-column skills-column1">
           <h3 class="title">Coding Skills</h3>
           <div class="skills-box">
             <div class="skills-content">
@@ -189,7 +257,10 @@
         </div>
 
         <!-- Professional skills column -->
-        <div class="skills-column skills-column2">
+        <div data-aos="fade-up-left"
+          data-aos-offset="100"
+          data-aos-duration="600"
+          data-aos-easing="ease-out" class="skills-column skills-column2">
           <h3 class="title">Professional Skills</h3>
           <div class="skills-box">
             <div class="skills-content">
@@ -428,9 +499,15 @@
           </div>
 
           <div class="social-icons">
-            <a href="https://github.com/RaviGupta965"><i class="bx bxl-github"></i></a>
-            <a href="https://www.linkedin.com/in/ravi-gupta-06384b248"><i class="bx bxl-linkedin"></i></a>
-            <a href="clicktoravi1234@gmail.com"><i class="bx bxs-envelope"></i></a>
+            <a href="https://github.com/RaviGupta965"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/ravi-gupta-06384b248"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="clicktoravi1234@gmail.com"
+              ><i class="bx bxs-envelope"></i
+            ></a>
           </div>
         </div>
 
@@ -443,9 +520,15 @@
       </div>
     </section>
 
-    <footer class="footer"><div>
-      &copy; Ravi Gupta. All rights reserved. Web Developer | Software Developer | GGSIPU
-    </div></footer>
+    <footer class="footer">
+      <div>
+        &copy; Ravi Gupta. All rights reserved. Web Developer | Software
+        Developer | GGSIPU
+      </div>
+    </footer>
+    <script>
+      AOS.init();
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
