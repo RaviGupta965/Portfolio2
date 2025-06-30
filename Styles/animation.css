@@ -10,3 +10,11 @@
   }
 }
 
+@keyframes typing {
+  from { width: 0; }
+  to { width: max-content; } /* Adjust to match text length */
+}
+
+@keyframes blinkCursor {
+  50% { border-color: transparent; }
+}
